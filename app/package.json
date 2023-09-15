@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "bun build",
+    "dev": "bun dev",
+    "start": "bun start"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
